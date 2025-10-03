@@ -1,0 +1,49 @@
+1.Estructura DB:
+
+Base de datos + modelos SQLAlchemy
+
+Crear Libros y Reservaciones.
+
+Probar con MySQL en local.
+
+Confirmar que se pueden crear tablas y hacer CRUD básico.
+
+2.FastAPI + CRUD endpoints
+
+Endpoints de libros (POST/GET/DELETE).
+
+Endpoints de reservas (POST/PUT/DELETE).
+
+Swagger (/docs) funcionando.
+
+3.Integración LLM (LangChain)
+
+Empezar con un mock (texto → JSON fijo).
+
+Luego conectar a OpenAI u otro LLM.
+
+Validar que convierte bien el lenguaje natural en “intents” o SQL.
+
+4.Procesar correos con Graph API (Microsoft)
+
+Conectar al buzón.
+
+Leer un correo y pasarlo al paso 3.
+
+Enviar respuesta por correo con el resultado.
+
+5.Dockerización y despliegue en Azure
+
+Dockerfile + docker-compose para local.
+
+Subir imagen a ACR.
+
+Desplegar a ACI/App Service.
+
+6.Extras
+
+Tests unitarios.
+
+Logs y manejo de errores.
+
+Video en YouTube.

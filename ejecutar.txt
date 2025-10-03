@@ -1,0 +1,19 @@
+py -m pip install -r requisitos.txt
+py -m venv venv  
+venv\Scripts\activate
+pip install mysql-connector-python
+py -m app.testing_db  
+uvicorn app.main:app --reload
+http://127.0.0.1:8000/docs
+pip install langchain langchain-groq
+pip install msal requests
+pip install apscheduler
+
+BibliotecaBot
+Id. de aplicación (cliente): c1ef9516-c3e9-430a-8c1d-6bec71223e35
+Id. de directorio (inquilino): dc24dd86-e088-4d1b-a87b-08d5880314b0
+
+
+BibliotecaInnovati
+valor = Boo8Q~3c4guMRWYuNwytoE._qOSkfWBid_CkabNr
+id de secreto = d14d8886-b0a6-483b-8e05-0ba70afcff6a
